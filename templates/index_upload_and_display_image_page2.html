@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/css/main.css' />
+    <title>Image Segmentation Web App</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Image Segmentation Web Application for Dogs and Cats</h1>
+    <p style="text-align: center;">Please insert an image of a dog or a cat of your choice below</p>
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" id="myFile" name="uploaded-file" accept=".png">
+        <input type="submit" value="Submit">
+    </form>
+  <br>
+  <p style="text-align: center;" style="color:black;">File uploaded successfully</p>
+  <form action="/show_image" target="_blank">
+        <input type="submit" value="Display Image" />
+    </form>
+  </body>
+</html>

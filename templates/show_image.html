@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/css/main.css' />
+    <title>Image Segmentation Web App</title>
+  </head>
+  <body>
+<h2 style="text-align: center;">Image Input from User</h2>
+ 
+<img style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px;" src="{{ user_image }}" alt="Italian Trulli" class="center" width="500" height="400">
+
+<form action="/predicted_image" target="_blank">
+  <input style="margin-top: 10px; margin-bottom: 10px;" type="submit" value="Display Unet Predicted Image" />
+</form>
+
+<form action="/segnet_image" target="_blank">
+  <input style="margin-top: 10px; margin-bottom: 10px;" type="submit" value="Display Segnet Predicted Image" />
+</form>
+
+    </body>
+</html>

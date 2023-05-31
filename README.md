@@ -3,4 +3,5 @@ This is my implementation of an image segmentation model (uNet + segNet) that au
 
 Allow me to explain the files within the repository, the purposes they serve and the implementation techniques wherever necessary:
 1. UNET.ipynb -> Google Colab Notebook used to train the uNet model, you may load the file to observe the training techniques implemented.
-2. 
+2. SegNet.ipynb -> Google Colab Notebook used to train the segNet model, you may load the file to observe the training techniques implemented.
+3. 

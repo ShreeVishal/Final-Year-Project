@@ -11,7 +11,7 @@ Note (app.py):
 
 Implementation screenshots:
 ![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/29836603-e0c4-4356-a134-be61bdd28e78)
-- Web Application Homepage
+<center> Web Application Homepage <center>
 
 ![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/62e2edeb-0b42-4e2f-b0b9-045541241c1e)
 - Prompt user input for an image of their choice

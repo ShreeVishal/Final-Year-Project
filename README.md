@@ -5,6 +5,7 @@ Files within the repository, the purposes they serve and the implementation tech
 1. UNET.ipynb -> Google Colab Notebook used to train the uNet model, you may load the file to observe the training techniques implemented.
 2. SegNet.ipynb -> Google Colab Notebook used to train the segNet model, you may load the file to observe the training techniques implemented.
 3. .vscode, __pycache__, static, templates, app.py -> Neccessary files to load into Visual Studio Code and execute the implementations of the web application.
+4. Final Year Project Report.pdf -> Content report on my Final Year Project (contains in-depth explanation on model training, model deployment and other features alongside justifications for techniques used)
 
 Note (app.py):
 1. Line 98, __unet_model.load_weights("C:\\Users\\Vishal\\Flask Project\\Unet_Testing.h5")__ and line 125, __segnet_model.load_weights("C:\\Users\\Vishal\\Flask Project\\Segnet_Testing.h5")__ are responsible for loading the trained image segmentation model into the web application. These files can be generated from Google Colab via the __ModelCheckpoint()__ function which saves the trained model into a __.h5__ file that can then be used in any other external environment. 
@@ -31,5 +32,6 @@ Once downloading the files (.vscode, pycache, static, templates, app.py), ensure
 
 Flask should then display a localhost IP address that can be used within any web browser to display the implementation of the web application.
 ![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/3e30d2c1-9cea-4e63-9a07-4bc6c610580b)
+
 
 

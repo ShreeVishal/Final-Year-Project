@@ -26,7 +26,7 @@ __Implementation screenshots:__
 ![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/2f888ee7-ac68-43ef-90a5-32ac5a76cb03) 
 - Predicted image for uNet and segNet model respectively
 
-__How to load the app?__
+__How to load the app?__:
 Once downloading the files (.vscode, pycache, static, templates, app.py), ensure that they are located within the same directory and execute the app.py script like so ![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/226dbad4-7c49-42c7-9b1e-9997b1386009)
 
 Flask should then display a localhost IP address that can be used within any web browser to display the implementation of the web application.

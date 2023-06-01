@@ -10,7 +10,7 @@ Note (app.py):
 1. Line 98, __unet_model.load_weights("C:\\Users\\Vishal\\Flask Project\\Unet_Testing.h5")__ and line 125, __segnet_model.load_weights("C:\\Users\\Vishal\\Flask Project\\Segnet_Testing.h5")__ are responsible for loading the trained image segmentation model into the web application. These files can be generated from Google Colab via the __ModelCheckpoint()__ function which saves the trained model into a __.h5__ file that can then be used in any other external environment. 
 
 __Implementation screenshots:__
-<div align=center><img src=![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/29836603-e0c4-4356-a134-be61bdd28e78)><div>
+<div align=center><img src="![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/29836603-e0c4-4356-a134-be61bdd28e78)"><div>
 <div align=center>Web Application Homepage<div>
 
 <div align=center>![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/62e2edeb-0b42-4e2f-b0b9-045541241c1e)<div>

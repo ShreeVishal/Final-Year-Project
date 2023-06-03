@@ -33,5 +33,5 @@ Once downloading the files (.vscode, pycache, static, templates, app.py), ensure
 Flask should then display a localhost IP address that can be used within any web browser to display the implementation of the web application.
 ![image](https://github.com/ShreeVishal/Final-Year-Project/assets/93562563/3e30d2c1-9cea-4e63-9a07-4bc6c610580b)
 
-
+Do drop me an email for any inquiries regarding the project -> shreevishalsone@gmail.com or just leave a comment here on the repository. Thanks for stopping by!
 
